@@ -101,7 +101,8 @@ shikhar@MacBook~ $ cd YukkiMusicBot
 shikhar@MacBook~ $ pip3 install pyrogram TgCrypto
 shikhar@MacBook~ $ python3 gen_session.py
 ```
-
+# Deploy to railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FMuhammedalthaf174%2FYukkiMusicBot&plugins=mongodb&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CDURATION_LIMIT%2CASSISTANT_PREFIX%2CMONGO_DB_URI%2CMUSIC_BOT_NAME%2CSUPPORT_CHANNEL%2CSUPPORT_GROUP%2COWNER_ID%2CSTRING_SESSION%2CLOG_GROUP_ID%2CSUDO_USERS&optionalEnvs=SUPPORT_CHANNEL%2CSUPPORT_GROUP%2COWNER_ID&API_IDDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&API_HASHDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&BOT_TOKENDesc=A+Bot%27s+token+from+Botfather&DURATION_LIMITDesc=Duration+Limit+for+Playout+%28In+Mins%29..+Example%3A+60&ASSISTANT_PREFIXDesc=Prefix+for+Assistant+Commands&MONGO_DB_URIDesc=Mongo+DB+URL&MUSIC_BOT_NAMEDesc=A+name+for+your+Music+Bot.&SUPPORT_CHANNELDesc=Support+Channel+Link+if+you+have+any%2C+Leave+blank+if+no+support.+Your+link+must+start+with+https%3A%2F%2Ft.me%2F&SUPPORT_GROUPDesc=Support+Group+Link+if+you+have+any%2C+Leave+blank+if+no+support.+Your+link+must+start+with+https%3A%2F%2Ft.me%2F&OWNER_IDDesc=The+user+id%28s%29+of+user%28s%29+whom+you+would+like+to+add+as+a+OWNER.+Multiple+values+shall+be+seperated+with+a+space&STRING_SESSIONDesc=A+Pyrogram+String+Session&LOG_GROUP_IDDesc=Your+Log+Group+ID%2C+add+your+bot+and+promote+as+an+admin+with+full+rights%21.+Use+only+Group.+Please+don%27t+use+Channel+ID&SUDO_USERSDesc=The+user+id%28s%29+of+user%28s%29+whom+you+would+like+to+add+as+a+SUDO.+Multiple+values+shall+be+seperated+with+a+space&DURATION_LIMITDefault=60&ASSISTANT_PREFIXDefault=.&referralCode=Xa1egz)
 
 <h2 align="center">
    Config Vars
