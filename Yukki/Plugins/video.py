@@ -5,9 +5,9 @@ from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6
 from Yukki.inline import stream_markup
 from Process.design.thumbnail import thumb
 from Process.design.chatname import CHAT_TITLE
-from Zaid.filters import command, other_filters
-from Zaid.queues import QUEUE, add_to_queue
-from Zaid.main import call_py, user
+from Yukki.filters import command, other_filters
+from Yukki.queues import QUEUE, add_to_queue
+from Yukki.main import call_py, user
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
