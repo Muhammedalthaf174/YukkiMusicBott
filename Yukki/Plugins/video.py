@@ -1,8 +1,7 @@
 import re
 import asyncio
 
-from config import  (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
-                   MUSIC_BOT_NAME, app, db_mem)
+from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6
 from Yukki.inline import stream_markup
 from Process.design.thumbnail import thumb
 from Process.design.chatname import CHAT_TITLE
