@@ -2,7 +2,8 @@ import re
 import asyncio
 
 from config import ASSISTANT_PREFIX, MUSIC_BOT_NAME
-from Yukki.inline import stream_markup
+from Yukki.inline import (playlist_markup, search_markup, search_markup2,
+                          url_markup, url_markup2) 
 from Process.design.thumbnail import thumb
 from Process.design.chatname import CHAT_TITLE
 from Yukki.filters import command, other_filters
