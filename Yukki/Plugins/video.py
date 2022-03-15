@@ -1,7 +1,7 @@
 import re
 import asyncio
 
-from config import ASSISTANT_PREFIX, BOT_USERNAME, IMG_1, IMG_2, IMG_6
+from config import ASSISTANT_PREFIX, MUSIC_BOT_NAME, IMG_1, IMG_2, IMG_6
 from Yukki.inline import stream_markup
 from Process.design.thumbnail import thumb
 from Process.design.chatname import CHAT_TITLE
